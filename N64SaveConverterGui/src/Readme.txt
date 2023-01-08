@@ -54,8 +54,6 @@ Lookup list:
 ===============================
 
  * All N64 Save file conversions will output the converted save file to the standard file type size for maximum compatibility
- * Some save files do not need to be converted between emulators. For example .eep saves do not need to be converted between Wii and Project64. 
- * In this case it is advisable to check the resize checkbox to set to the standard size, just in case.
  * Here are the Standard Save File Sizes:
    - 4Kbit EEPROM (.eep): 2048 bytes (padded to 16Kbit EEPROM size)
    - 16Kbit EEPROM (.eep): 2048 bytes (Same as actual N64 hardware size. Therefore, 4Kbit and 16Kbit EEPs are indistinguishable for the purposes of this application)
