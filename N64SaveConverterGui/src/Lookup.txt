@@ -1,0 +1,350 @@
+This is a list of N64 games grouped by save type. Use this list to determine what save type to use when converting or resizing your game saves.
+
+=======================
+ Controller Pak (.mpk)
+=======================
+
+Aero Gauge
+Aidyn Chronicles: The First Mage
+All-Star Baseball 2000
+All-Star Baseball 2001
+All-Star Baseball '99
+Armorines: Project S.W.A.R.M.
+Army Men: Air Combat
+Army Men: Sarge's Heroes
+Army Men: Sarge's Heroes 2
+Asteroids Hyper 64
+Automobili Lamborghini
+Bassmaster 2000
+Battle Tanx
+Battle Tanx: Global Assault
+Battlezone: Rise of the Black Dogs
+Beetle Adventure Racing
+Big Mountain 2000
+Bio F.R.E.A.K.S.
+Blast Corps
+Blues Brothers 2000
+Bomberman 64
+Bottom of the 9th
+Brunswick Circuit Pro Bowling
+Buck Bumble
+Bug's Life, A
+Bust-A-Move 2: Arcade Edition
+Bust-A-Move '99
+California Speed
+Carmageddon 64
+Castlevania
+Castlevania: Legacy of Darkness
+Centre Court Tennis (PAL)
+Chameleon Twist 2
+Cruis'n USA
+CyberTiger
+Daikatana
+Deadly Arts
+Destruction Derby
+Diddy Kong Racing
+Doom 64
+Dual Heroes
+Duke Nukem 64
+Duke Nukem: Zero Hour
+ECW: Hardcore Revolution
+Excitebike 64
+Extreme-G
+Extreme-G 2
+F1 Pole Position 64
+F1 Racing Championship (PAL)
+FIFA '99
+FIFA Soccer 64
+FIFA: Road to World Cup 98
+Fighters Destiny
+Fighter Destiny 2
+Fighting Force 64
+Flying Dragon
+Forsaken 64
+Fox Sports College Hoops '99
+Gauntlet Legends
+Gex 3: Deep Cover Gecko
+Gex 64: Enter the Gecko
+Goemon's Great Adventure
+Golden Nugget 64
+GT64 Championship Edition
+Hercules: The Legendary Journeys
+Hexen
+Hot Wheels Turbo Racing
+Hybrid Heaven
+Hydro Thunder
+Iggy's Reckin' Balls
+International Superstar Soccer 64
+International Superstar Soccer '98
+International Superstar Soccer 2000
+International Track & Field 2000
+Jeremy McGrath Supercross 2000
+Killer Instinct Gold
+Knockout Kings 2000
+Kobe Bryant in NBA Courtside
+Lego Racers
+Madden 2000
+Madden 2001
+Madden 2002
+Madden 64
+Madden '99
+Mario Kart 64
+Mia Hamm Soccer 64
+Micro Machines 64 Turbo
+Midway's Greatest Arcade Hits Volume 1
+Mike Piazza's Strike Zone
+Milo's Astro Lanes
+Monaco Grand Prix
+Mortal Kombat 4
+Mortal Kombat Mythologies: Sub-Zero
+Ms. Pac-Man Maze Madness
+Multi-Racing Championship
+Mystical Ninja Starring Goemon
+Nagano Winter Olympics '98
+Namco Museum 64
+Nascar 2000
+Nascar '99
+NBA Hang Time
+NBA In the Zone 2000
+NBA In the Zone '98
+NBA In the Zone '99
+NBA Jam 2000
+NBA Jam '99
+NBA Live 2000
+NBA Live '99
+NBA Show Time: NBA on NBC
+New Tetris, The
+NFL Blitz
+NFL Blitz 2000
+NFL Blitz 2001
+NFL Blitz Special Edition
+NFL Quarterback Club 2000
+NFL Quarterback Club 2001
+NFL Quarterback Club '98
+NFL Quarterback Club '99
+NHL '99
+NHL Blades of Steel '99
+NHL Breakaway Hockey '98
+NHL Breakaway Hockey '99
+Nightmare Creatures
+Nuclear Strike 64
+Off Road Challenge
+Olympic Hockey '98
+Paperboy
+Penny Racers
+Perfect Dark
+Polaris Snocross
+Power Rangers: Lightspeed Rescue
+Premier Manager 64 (PAL)
+Quake
+Quake II
+Quest 64
+Rainbow Six
+Rakuga Kids (PAL)
+Rally Challenge 2000
+Rampage 2: Universal Tour
+Rampage: World Tour
+Rat Attack
+Rayman 2: The Great Escape
+Razor Freestyle Scooter
+Ready 2 Rumble Boxing
+Ready 2 Rumble Boxing Round 2
+Re-Volt
+Road Rash 64
+Roadsters
+Robotron 64
+Rugrats in Paris: The Movie
+Rush 2: Extreme Racing USA
+S.C.A.R.S.
+San Francisco Rush: 2049
+San Francisco Rush: Extreme Racing
+Scooby-Doo: Classic Creep Capers
+Shadow Man
+Shadowgate 64: Trials of the Four Towers
+Snowboard Kids
+South Park
+South Park Rally
+Space Invaders
+Spider-Man
+Stunt Racer 64
+Supercross 2000
+Superman
+Tarzan
+The World Is Not Enough
+Tonic Trouble
+Tony Hawk's Pro Skater
+Tony Hawk's Pro Skater 2
+Tony Hawk's Pro Skater 3
+Top Gear Hyper Bike
+Top Gear Rally
+Top Gear Rally 2
+Toy Story 2
+Triple Play 2000
+Turok: Dinosaur Hunter
+Turok 2: Seeds of Evil
+Turok 3: Shadow of Oblivion
+Turok: Rage Wars
+Twisted Edge Extreme Snowboarding
+Vigilante 8
+Vigilante 8: 2nd Offense
+Virtual Chess 64
+Virtual Pool 64
+Wave Race 64
+Wayne Gretzky's 3D Hockey
+Wayne Gretzky's 3D Hockey '98
+WCW Backstage Assault
+WCW Mayhem
+WCW Nitro
+WCW vs. NWO: World Tour
+Wetrix
+WinBack: Covert Operations
+Wipeout 64
+World Cup '98
+World Driver Championship
+Wrestlemania 2000
+WWF: Attitude
+WWF: Warzone
+Xena: Talisman of Fate
+
+=======================
+ EEPROM (.eep)
+=======================
+
+AeroFighters Assault
+Air Boarder 64 (PAL)
+All-Star Tennis '99
+Banjo-Kazooie
+Banjo-Tooie
+Bass Hunter 64
+Big Mountain 2000
+Blast Corps
+Body Harvest
+Bomberman 64
+Bomberman 64: Second Attack
+Bomberman Hero
+Chameleon Twist
+Chopper Attack
+Conker's Bad Fur Day
+Cruis'n Exotica
+Cruis'n USA
+Cruis'n World
+Diddy Kong Racing
+Donald Duck: Goin' Quackers
+Donkey Kong 64
+Dr. Mario 64
+Earthworm Jim 3D
+Excitebike 64
+F-1 World Grand Prix
+F-1 World Grand Prix II (PAL)
+Fighter Destiny 2
+Fighters Destiny
+GT64 Championship Edition
+Glover
+GoldenEye 007
+Hey you, Pikachu!
+Indiana Jones and the Infernal Machine
+Indy Racing 2000
+Killer Instinct Gold
+Kirby 64: The Crystal Shards
+Kobe Bryant in NBA Courtside
+Lode Runner 3D
+Loony Toons: Duck Dodgers
+Mario Kart 64
+Mario Party
+Mario Party 2
+Mario Party 3
+Mario Tennis
+Mickey's Speedway USA
+Mischief Makers
+Mission: Impossible
+Monopoly
+Multi-Racing Championship
+PGA European Tour
+Penny Racers
+Perfect Dark
+Pilotwings 64
+Premier Manager 64 (PAL)
+Ridge Racer 64
+Rocket: Robot on Wheels
+Snowboard Kids 2
+Space Station Silicon Valley
+Star Fox 64
+Star Soldier: Vanishing Earth
+Star Wars Episode 1 Racer
+Star Wars Episode 1: Battle for Naboo
+Star Wars: Rogue Squadron
+Star Wars: Shadows of the Empire
+Starshot Space Circus
+Super Mario 64
+Taz Express (PAL)
+Tetrisphere
+Tom & Jerry in Fists of Furry
+Top Gear Overdrive
+V-Rally Edition '99
+Waialae Country Club: True Golf Classics
+Wave Race 64
+Worms Armageddon
+Yoshi's Story
+
+=======================
+ SRAM (.sra)
+=======================
+
+1080 Snowboarding
+Dezaemon 3D (JPN, 768Kbit)
+F-Zero X
+Harvest Moon 64
+Legend of Zelda: Ocarina of Time, The
+Major League Baseball featuring Ken Griffey Jr.
+Mario Golf
+New Tetris, The
+Ogre Battle 64: Person of Lordly Caliber
+Pocket Monsters Stadium (JPN)
+Resident Evil 2
+Super Smash Bros.
+WCW/NWO Revenge
+WWF: Wrestlemania 2000
+Animal Crossing (JPN) uses a battery for the real time clock (RTC) chip.
+
+=======================
+ FlashRAM (.fla)
+=======================
+
+Command & Conquer
+Jet Force Gemini
+Ken Griffey Jr's Slugfest
+Legend of Zelda: Majora's Mask, The
+Megaman 64
+NBA Courtside 2 featuring Kobe Bryant
+Paper Mario
+Pokemon Puzzle League
+Pokemon Snap
+Pokemon Stadium
+Pokemon Stadium 2
+Starcraft 64
+Tigger's Honey Hunt
+WWF: No Mercy
+
+=======================
+ No Save
+=======================
+
+Batman Beyond: Return of the Joker
+Charlie Blast's Territory (Password)
+Clayfighter 63 1/3
+Clayfighter: Sculptor's Cut
+Dark Rift
+Elmo's Letter Adventure
+Elmo's Number Journey
+Jeopardy!
+Knife Edge: Nosegunner
+Mace: The Dark Age
+Magical Tetris Challenge
+Monster Truck Madness (Password)
+Mortal Kombat Trilogy
+Powerpuff Girls: Chemical X Traction (Password)
+Rugrats: Scavenger Hunt
+South Park: Chef's Luv Shack
+Transformers Beast Wars: Transmetals
+War Gods
+Wheel of Fortune
