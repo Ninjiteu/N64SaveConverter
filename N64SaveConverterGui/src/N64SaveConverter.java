@@ -222,6 +222,7 @@ public class N64SaveConverter {
         mainFrame.setVisible(true);
         mainFrame.pack();
         mainFrame.setLocationRelativeTo(null);
+        inputOutputButtonsCheck(); // just in case we have a config on startup that loads options from a previous session, for example.
     }
 
     public static ActionListener readmeListener() {
@@ -365,6 +366,7 @@ public class N64SaveConverter {
                             inputType.addItem(newInputTypeEntry);
                         }
                     }
+                    inputType.setEnabled(true);
                     inputSource.setEnabled(false);
                     outputTarget.setEnabled(false);
                     outputType.setEnabled(false);
@@ -372,8 +374,9 @@ public class N64SaveConverter {
                 } else {
                     inputType.removeAllItems();
                     inputSource.setEnabled(true);
-                    outputTarget.setEnabled(true);
-                    outputType.setEnabled(true);
+                    inputType.setEnabled(false);
+                    outputTarget.setEnabled(false);
+                    outputType.setEnabled(false);
                     convertButton.setText("Convert save file");
                 }
                 convertButtonCheck();
@@ -397,6 +400,7 @@ public class N64SaveConverter {
                 for(String newInputTypeEntry : newInputTypeList) {
                     inputType.addItem(newInputTypeEntry);
                 }
+                inputOutputButtonsCheck();
                 convertButtonCheck();
             }
         };
@@ -487,6 +491,22 @@ public class N64SaveConverter {
                 convertButton.setEnabled(true);
         } else {
             convertButton.setEnabled(false);
+        }
+    }
+
+    private static void inputOutputButtonsCheck() {
+        if(inputSource.getSelectedItem() == null || inputSource.getSelectedItem().equals("")) {
+            if(!standardSizeCheckbox.isSelected()) {
+                inputType.setEnabled(false);
+            }
+            outputTarget.setEnabled(false);
+            outputType.setEnabled(false);
+        } else {
+            if(!standardSizeCheckbox.isSelected()) {
+                inputType.setEnabled(true);
+            }
+            outputTarget.setEnabled(true);
+            outputType.setEnabled(true);
         }
     }
 
