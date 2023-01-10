@@ -58,7 +58,7 @@ public class N64SaveConverter {
     private static final String MPK_LABEL = "Controller Pak (.mpk)";
     private static final String SRM_LABEL = "Retroarch Save (.srm)";
     private static final String WII_LABEL = "Wii/WiiU/Everdrive64";
-    private static final String PJ64_LABEL = "Project64";
+    private static final String PJ64_LABEL = "Project64/Mupen64";
     private static final String RA_LABEL = "Retroarch";
     private static final String[] inputTypeList = {"", EEP_LABEL, SRA_LABEL, FLA_LABEL, MPK_LABEL, SRM_LABEL};
     private static final String[] outputTypeList = {"", EEP_LABEL, SRA_LABEL, FLA_LABEL, MPK_LABEL, SRM_LABEL};
@@ -140,14 +140,17 @@ public class N64SaveConverter {
         inputTypeLabel = new JLabel("Save file source type:");
         inputType = new JComboBox(new String[0]);
         inputType.setFocusable(false);
+        inputType.setEnabled(false);
         inputType.addActionListener(inputTypeListener());
         outputTargetLabel = new JLabel("Save file target:");
         outputTarget = new JComboBox(new String[0]);
         outputTarget.setFocusable(false);
+        outputTarget.setEnabled(false);
         outputTarget.addActionListener(outputTargetListener());
         outputTypeLabel = new JLabel("Save file target type:");
         outputType = new JComboBox(new String[0]);
         outputType.setFocusable(false);
+        outputType.setEnabled(false);
         convertButton = new JButton("Convert save file");
         convertButton.setFocusable(false);
         convertButton.setEnabled(false);
@@ -366,14 +369,14 @@ public class N64SaveConverter {
                         }
                     }
                     inputSource.setEnabled(false);
+                    inputType.setEnabled(true);
                     outputTarget.setEnabled(false);
                     outputType.setEnabled(false);
                     convertButton.setText("Resize save file");
                 } else {
                     inputType.removeAllItems();
                     inputSource.setEnabled(true);
-                    outputTarget.setEnabled(true);
-                    outputType.setEnabled(true);
+                    inputType.setEnabled(false);
                     convertButton.setText("Convert save file");
                 }
                 convertButtonCheck();
@@ -398,6 +401,15 @@ public class N64SaveConverter {
                     inputType.addItem(newInputTypeEntry);
                 }
                 convertButtonCheck();
+                if(inputSource.getSelectedItem() != null && !inputSource.getSelectedItem().equals("")) {
+                    inputType.setEnabled(true);
+                    outputTarget.setEnabled(true);
+                    outputType.setEnabled(true);
+                } else {
+                    inputType.setEnabled(false);
+                    outputTarget.setEnabled(false);
+                    outputType.setEnabled(false);
+                }
             }
         };
     }
