@@ -90,11 +90,11 @@ public class N64SaveConverter {
         conversionTable.put(PJ64_LABEL+"-"+MPK_LABEL+"-"+RA_LABEL+"-"+SRM_LABEL, new ConversionTableEntry(SIZE_MPK, SIZE_SRM, SIZE_MPK_SRM_OFFSET, false, SRM_EXT));
         conversionTable.put(RA_LABEL+"-"+SRM_LABEL+"-"+WII_LABEL+"-"+EEP_LABEL, new ConversionTableEntry(SIZE_SRM, SIZE_EEP, 0, false, EEP_EXT));
         conversionTable.put(RA_LABEL+"-"+SRM_LABEL+"-"+WII_LABEL+"-"+SRA_LABEL, new ConversionTableEntry(SIZE_SRM, SIZE_SRA, -SIZE_SRA_SRM_OFFSET, true, SRA_EXT));
-        conversionTable.put(RA_LABEL+"-"+SRM_LABEL+"-"+WII_LABEL+"-"+FLA_LABEL, new ConversionTableEntry(SIZE_SRM, SIZE_FLA, -SIZE_FLA_SRM_OFFSET, true, SRM_EXT));
+        conversionTable.put(RA_LABEL+"-"+SRM_LABEL+"-"+WII_LABEL+"-"+FLA_LABEL, new ConversionTableEntry(SIZE_SRM, SIZE_FLA, -SIZE_FLA_SRM_OFFSET, true, FLA_EXT));
         conversionTable.put(RA_LABEL+"-"+SRM_LABEL+"-"+WII_LABEL+"-"+MPK_LABEL, new ConversionTableEntry(SIZE_SRM, SIZE_MPK, -SIZE_MPK_SRM_OFFSET, false, MPK_EXT));
         conversionTable.put(RA_LABEL+"-"+SRM_LABEL+"-"+PJ64_LABEL+"-"+EEP_LABEL, new ConversionTableEntry(SIZE_SRM, SIZE_EEP, 0, false, EEP_EXT));
         conversionTable.put(RA_LABEL+"-"+SRM_LABEL+"-"+PJ64_LABEL+"-"+SRA_LABEL, new ConversionTableEntry(SIZE_SRM, SIZE_SRA, -SIZE_SRA_SRM_OFFSET, false, SRA_EXT));
-        conversionTable.put(RA_LABEL+"-"+SRM_LABEL+"-"+PJ64_LABEL+"-"+FLA_LABEL, new ConversionTableEntry(SIZE_SRM, SIZE_FLA, -SIZE_FLA_SRM_OFFSET, false, SRM_EXT));
+        conversionTable.put(RA_LABEL+"-"+SRM_LABEL+"-"+PJ64_LABEL+"-"+FLA_LABEL, new ConversionTableEntry(SIZE_SRM, SIZE_FLA, -SIZE_FLA_SRM_OFFSET, false, FLA_EXT));
         conversionTable.put(RA_LABEL+"-"+SRM_LABEL+"-"+PJ64_LABEL+"-"+MPK_LABEL, new ConversionTableEntry(SIZE_SRM, SIZE_MPK, -SIZE_MPK_SRM_OFFSET, false, MPK_EXT));
     }
 
