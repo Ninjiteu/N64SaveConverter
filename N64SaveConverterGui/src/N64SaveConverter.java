@@ -1,4 +1,6 @@
 import java.io.File;
+import java.io.FileInputStream;
+import java.io.InputStream;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
@@ -36,6 +38,8 @@ import javax.swing.event.DocumentListener;
 import javax.swing.filechooser.FileNameExtensionFilter;
 import javax.swing.text.DefaultHighlighter;
 import javax.swing.text.Highlighter.HighlightPainter;
+
+
 
 public class N64SaveConverter {
 
@@ -231,7 +235,13 @@ public class N64SaveConverter {
         return new ActionListener() {
             public void actionPerformed(ActionEvent event) {
                 try {
-                    JTextArea readmeText = new JTextArea(new String(N64SaveConverter.class.getResourceAsStream("Readme.txt").readAllBytes()));
+                    InputStream input = new FileInputStream("Readme.txt");
+                    int size = input.available();
+                    byte[] array = new byte[size];
+                    input.read(array);
+                    input.close();
+
+                    JTextArea readmeText = new JTextArea(new String(array));
                     readmeText.setMargin(new Insets(10,10,10,10));
                     readmeText.setLineWrap(true);
                     readmeText.setEditable(false);
@@ -260,7 +270,14 @@ public class N64SaveConverter {
         return new ActionListener() {
             public void actionPerformed(ActionEvent event) {
                 try {
-                    JTextArea lookupText = new JTextArea(new String(N64SaveConverter.class.getResourceAsStream("Lookup.txt").readAllBytes()));
+                    InputStream input = new FileInputStream("Lookup.txt");
+                    int size = input.available();
+                    byte[] array = new byte[size];
+                    input.read(array);
+                    input.close();
+                    
+
+                    JTextArea lookupText = new JTextArea(new String(array));
                     lookupText.setMargin(new Insets(10,10,10,10));
                     lookupText.setLineWrap(true);
                     lookupText.setEditable(false);
@@ -493,7 +510,7 @@ public class N64SaveConverter {
     }
 
     private static void convertButtonCheck() {
-        if((inputPathTextField.getText() != null && !inputPathTextField.getText().isBlank()) 
+        if((inputPathTextField.getText() != null && !inputPathTextField.getText().isEmpty()) 
             && ((inputSource.getSelectedItem() != null && !inputSource.getSelectedItem().equals(""))
             || standardSizeCheckbox.isSelected())) {
                 convertButton.setEnabled(true);
